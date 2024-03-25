@@ -1,4 +1,10 @@
 #include <iostream>
+#include <vector>
 
-int main() {
+#include "arguments.h"
+#include "backtester.h"
+
+int main(int argc, char **argv) {
+	auto arguments = Arguments(argc, argv);
+	auto backtester = Backtester();
 }
